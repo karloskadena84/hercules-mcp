@@ -1,0 +1,95 @@
+═══════════════════════════════════════════════════════════
+           CÓMO USAR HÉRCULES (MUY FÁCIL)
+═══════════════════════════════════════════════════════════
+
+PASOS EN WINDOWS (lo más simple)
+--------------------------------
+
+1. Descomprime esta carpeta donde quieras.
+
+2. Entra en la carpeta hercules-mcp.
+
+3. Haz DOBLE CLIC en:
+
+      scripts\instalar.bat
+
+4. Si el instalador necesita descargar algo, déjalo terminar
+   (solo ocurre la primera vez, puede tardar 1-3 minutos).
+
+5. Cuando diga que terminó:
+   - Cierra Claude Desktop COMPLETAMENTE
+     (también el icono de abajo a la derecha, junto al reloj)
+   - Vuelve a abrir Claude Desktop
+
+6. En el chat escribe:
+
+      optimiza mi sistema
+
+7. Hércules se activará y te guiará paso a paso.
+
+
+═══════════════════════════════════════════════════════════
+PASOS EN MAC
+═══════════════════════════════════════════════════════════
+
+1. Descomprime la carpeta.
+
+2. Abre Terminal, entra en la carpeta hercules-mcp.
+
+3. Escribe:
+
+      chmod +x scripts/install.sh
+      ./scripts/install.sh
+
+4. Si te pide instalar Node.js, hazlo desde https://nodejs.org
+   (versión LTS) y vuelve a ejecutar el instalador.
+
+5. Reinicia Claude Desktop y escribe: optimiza mi sistema
+
+
+═══════════════════════════════════════════════════════════
+¿QUÉ PUEDE HACER HÉRCULES?
+═══════════════════════════════════════════════════════════
+
+• Medir el uso de RAM y espacio en disco
+• Mostrar qué programas consumen más memoria
+• Detectar archivos y carpetas que más ocupan
+• Limpiar temporales, cachés y Papelera (con tu permiso)
+• Cerrar procesos pesados (solo si tú confirmas)
+• Liberar memoria en espera (Windows)
+• Poner el plan de energía en Alto rendimiento
+• Ayudar a desactivar programas de inicio innecesarios
+• Mostrarte la mejora al final
+
+Nunca hace cambios peligrosos sin preguntarte.
+
+
+═══════════════════════════════════════════════════════════
+COMANDOS QUE PUEDES ESCRIBIR
+═══════════════════════════════════════════════════════════
+
+  optimiza mi sistema
+  ¿cómo está el rendimiento de mi PC?
+  libera memoria
+  busca archivos grandes
+  pon el plan de energía en alto rendimiento
+  limpia temporales
+
+
+═══════════════════════════════════════════════════════════
+SI ALGO FALLA
+═══════════════════════════════════════════════════════════
+
+• El instalador dice que falta algo y abre una página web
+  → Instala lo que te indique (siguiente, siguiente) y
+    vuelve a hacer doble clic en instalar.bat
+
+• Claude no reconoce a Hércules
+  → Cierra Claude por completo (también la bandeja) y ábrelo de nuevo
+  → Si sigue fallando, vuelve a ejecutar instalar.bat
+
+• Pide permisos de administrador
+  → Algunas optimizaciones funcionan mejor así, pero no es obligatorio
+
+
+═══════════════════════════════════════════════════════════

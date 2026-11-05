@@ -1,0 +1,50 @@
+{
+  "name": "hercules-mcp",
+  "version": "0.1.0",
+  "description": "Hércules — Agente MCP que evalúa y optimiza el rendimiento de tu Mac o Windows. Diagnostica cuellos de botella, limpia el arranque, gestiona cachés y mejora la velocidad de forma segura.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "hercules-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "inspector": "npx @modelcontextprotocol/inspector npx tsx src/index.ts",
+    "validate": "node scripts/validate.js"
+  },
+  "keywords": [
+    "mcp",
+    "hercules",
+    "optimizacion",
+    "rendimiento",
+    "macos",
+    "windows",
+    "system-optimizer",
+    "performance"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TU_USUARIO/hercules-mcp.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.4.0",
+    "zod": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
